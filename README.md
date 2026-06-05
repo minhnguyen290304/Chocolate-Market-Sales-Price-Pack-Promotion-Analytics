@@ -1,4 +1,6 @@
-# Chocolate Market Sales, Promotion & Price-Pack Analytics
+# 🍫 Chocolate Market Sales, Promotion & Price-Pack Analytics
+
+---
 
 <img width="1000" height="525" alt="image" src="https://github.com/user-attachments/assets/14251f39-b0c5-4e62-8f30-228ae2e31461" />
 
@@ -12,9 +14,31 @@ The analysis focuses on how product architecture, promotional strategies, custom
 
 The objective is to demonstrate how commercial analytics can support pricing optimization, promotional planning, assortment management, and channel strategy decisions.
 
+#### The project consists of 7 main parts:
+
+```text
+1. Business Objectives
+
+2. Dataset Overview
+
+3. Project Workflow
+
+4. Executive Summary
+
+5. Analytical Findings
+
+      5.1 Risk Segmentation Analysis
+      5.2 Customer Risk Profile Analysis
+      5.3 Behavioral Credit Risk Analysis
+
+6. Key Business Insights
+
+7. Business Recommendations
+```
+
 ---
 
-## Business Objectives
+# 1. Business Objectives
 
 This project aims to evaluate commercial performance across products, brands, customers, and channels while identifying opportunities to improve profitability and sales effectiveness.
 
@@ -32,7 +56,7 @@ The analysis focuses on five key business questions:
 
 ---
 
-## Dataset Overview
+# 2. Dataset Overview
 
 The dataset describes the operations of a multinational chocolate retailer selling products across multiple countries, customer segments, brands, and retail channels over a two-year period.
 
@@ -42,17 +66,17 @@ Data Model
 
 <img src="https://github.com/minhnguyen290304/Chocolate-Market-Sales-Price-Pack-Promotion-Analytics/blob/main/dashboard%20preview/data%20overview.png?raw=true" width="70%">
 
-consists of:
-
-Sales: transactional sales records containing revenue, profit, quantity sold, discounts, and pricing information.
-Products: product attributes including brand, category, cocoa percentage, and package size.
-Customers: customer demographic information such as age, gender, and loyalty membership status.
-Stores: geographic and channel-related information including country and store type.
-Calendar: date attributes used for trend and seasonality analysis.
+| Dataset | Description |
+|----------|------------|
+| sales | transactional sales records containing revenue, profit, quantity sold, discounts, and pricing information |
+| products | product attributes including brand, category, cocoa percentage, and package size |
+| customers | customer demographic information such as age, gender, and loyalty membership status |
+| stores | geographic and channel-related information including country and store type |
+| calendar | date attributes used for trend and seasonality analysis |
 
 ---
 
-# Project Workflow
+# 3. Project Workflow
 
 ```text
 Raw CSV Files
@@ -70,9 +94,7 @@ Business Insights & Recommendations
 
 The project begins by loading raw datasets into SQL Server, where data validation and transformation processes are performed to ensure data quality and consistency.
 
-The datasets are then organized into a dimensional data model to support analytical reporting and KPI development. SQL is used to evaluate performance across products, brands, promotions, customer segments, countries, and retail channels.
-
-Finally, the curated analytical model is connected to Power BI, where interactive dashboards are developed to visualize business performance and generate actionable insights.
+The datasets are then organized into a dimensional data model to support analytical reporting and KPI development. Finally, the curated analytical model is connected to Power BI, where interactive dashboards are developed to visualize business performance and generate actionable insights.
 
 ### 🔧 Tools Used
 
@@ -83,7 +105,7 @@ Finally, the curated analytical model is connected to Power BI, where interactiv
 
 ---
 
-# Executive Summary
+# 4. Executive Summary
 
 The analysis reveals that chocolate sales generated more than **$30 million in revenue** and **$11.5 million in profit**, achieving an overall **profit margin of 38.5%** across the two-year period.
 
@@ -91,13 +113,13 @@ Revenue generation is concentrated among a small number of leading brands, while
 
 Premium products with higher cocoa concentrations generate superior margins, while promotional campaigns drive a substantial proportion of overall sales performance. These findings provide actionable insights for pricing optimization, promotional planning, assortment management, and channel strategy decisions.
 
-<img src="dashboard preview/executive summary.png" width="100%">
-
 ---
 
 # 5. Analytical Findings
 
 ## 5.1 Sales Performance Analysis
+
+<img src="dashboard preview/executive summary.png" width="100%">
 
 The business generated approximately **$30.07M in revenue**, **$11.59M in profit**, and sold more than **3.35 million units** during the analysis period.
 
